@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 # DEBUG = True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['http://mehrinoz-abdullayeva.uz/', 'www.mehrinoz-abdullayeva.uz']
 
 # Application definition
 
