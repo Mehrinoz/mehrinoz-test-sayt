@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 # DEBUG = True
-ALLOWED_HOSTS = ['http://mehrinoz-abdullayeva.uz/', 'www.mehrinoz-abdullayeva.uz']
+ALLOWED_HOSTS = ['http://mehrinoz-abdullayeva.uz/', 'www.mehrinoz-abdullayeva.uz',]
 
 # Application definition
 
@@ -106,7 +106,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [BASE_DIR / 'mainapp' / 'static']
-STATICFILES_DIRS = ('/home/mehrino1/mehrinoz-abdullayeva.uz/students/static',)
+STATICFILES_DIRS = ('/home/mehrino1/mehrinoz-abdullayeva.uz/students/mainapp/static',)
 STATIC_ROOT = '/home/mehrino1/mehrinoz-abdullayeva.uz/students/staticfiles'
 # STATIC_ROOT =BASE_DIR/'staticfiles'
 # Default primary key field type
