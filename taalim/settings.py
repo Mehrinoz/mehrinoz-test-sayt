@@ -106,8 +106,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [BASE_DIR / 'mainapp' / 'static']
-STATICFILES_DIRS = ('/home/mehrinoz/mehrinoz-abdullayeva.uz/students/static',)
-STATIC_ROOT = '/home/mehrinoz/mehrinoz-abdullayeva.uz/students/staticfiles'
+STATICFILES_DIRS = ('/home/mehrino1/mehrinoz-abdullayeva.uz/students/static',)
+STATIC_ROOT = '/home/mehrino1/mehrinoz-abdullayeva.uz/students/staticfiles'
 # STATIC_ROOT =BASE_DIR/'staticfiles'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -121,4 +121,4 @@ LOGIN_REDIRECT_URL = '/'
 
 MEDIA_URL = '/media/'
 # MEDIA_ROOT = BASE_DIR/'media'
-MEDIA_ROOT = '/home/mehrinoz/mehrinoz-abdullayeva.uz/students/media'
+MEDIA_ROOT = '/home/mehrino1/mehrinoz-abdullayeva.uz/students/media'
